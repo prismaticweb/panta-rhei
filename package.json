@@ -1,8 +1,9 @@
 {
-  "name": "",
+  "name": "@panta-rhei/landing-page",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "prepare": "panda codegen",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -15,5 +16,8 @@
     "astro": "^4.9.2",
     "solid-js": "^1.8.17",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.40.0"
   }
 }
