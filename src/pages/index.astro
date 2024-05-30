@@ -8,9 +8,28 @@ import "../index.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>Panta rhei</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <header>
+      <p><strong>Panta rhei</strong></p>
+      <nav>
+        <ul>
+          <li><a data-selected={"true"} href={"/de"} set:text={"de"} /></li>
+          <li><a data-selected={"false"} href={"/en"} set:text={"en"} /></li>
+          <li><a data-selected={"false"} href={"/nl"} set:text={"nl"} /></li>
+          <li><a data-selected={"false"} href={"/pl"} set:text={"pl"} /></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Panta rhei</h1>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href={"/de/imprint"} set:text={"imprint"} /></li>
+          <li><a href={"/de/privacy"} set:text={"privacy"} /></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
